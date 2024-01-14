@@ -26,6 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import air_bnb from "./air_bnb.png";
+import easy_bank from "./easy_bank.png"
+import messanger from "./messanger.png"
+import portfolio from "./portfolio.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -57,6 +61,10 @@ export {
   starbucks,
   tesla,
   carrent,
+  air_bnb,
+  easy_bank,
+  messanger,
+  portfolio,
   jobit,
   tripguide,
 };

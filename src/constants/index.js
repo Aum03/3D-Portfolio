@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+   air_bnb,
+   easy_bank,
+   messanger,
+   portfolio,
   carrent,
   jobit,
   tripguide,
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "MERN Stack",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AWS",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "DevOps",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Anime",
     icon: creator,
   },
 ];
@@ -72,10 +72,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -104,10 +104,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -116,55 +116,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "MERN Stack  Developer",
+    company_name: "Advanced System Services And Software Consultant",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "17/5/2022 - 24/6/2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "During my internship , I built an Sugar Management Website , in which admin can manage records of several departments and user, items and information about various truck carriers",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ 
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "WEE Tech Solutions",
+   
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "15/5/2023 - 24/6/2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "During my internship , I built an table reservation Website , in which admin can manage records of several tables and user and can book tables for the customers for specified Date and Time",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "DevOps Engineer",
+    company_name: "Crest Data Systems",
+  
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "16/11/2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Understand new technologies and programming languages that the Company works with",
+      "Assist project team with Software Development, QA, Automation, CloudOps/SRE",
+      "Implementing Devops Technologies like Terraform , Docker , kubernetes etc",
     ],
   },
 ];
@@ -198,68 +180,85 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Airbnb-frontend",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Clone of Air-BNB using NEXT.JS and Tailwind CSS",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: air_bnb,
+    source_code_link: "https://github.com/Aum03/airbnb-frontend",
   },
   {
-    name: "Job IT",
+    name: "Messaging-App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Simple messaging web-app using React.js , Material UI , Firebase",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "materialUI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: messanger,
+    source_code_link: "https://github.com/Aum03/facebook-messenger-clone",
   },
   {
-    name: "Trip Guide",
+    name: "Easy-Bank Frontend",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Frontend of an banking website using html,css and javascript",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: easy_bank,
+    source_code_link: "https://github.com/Aum03/banking-website-frontend",
   },
+  // {
+  //   name: "Demo-Portfolio Website",
+  //   description:
+  //     "Portfolio website made using React.js , emailjs and css",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "email.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: portfolio,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
