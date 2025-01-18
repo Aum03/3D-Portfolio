@@ -11,8 +11,8 @@ import CanvasLoader from "./Loader";
 
 
 export {
-  Hero,
   Navbar,
+  Hero,
   About,
   Tech,
   Experience,
