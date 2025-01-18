@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -13,15 +12,10 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
    air_bnb,
    easy_bank,
    messanger,
-   portfolio,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
